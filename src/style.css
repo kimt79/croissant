@@ -1,8 +1,17 @@
+:root {
+  --bs-body-bg: #F8E8A6;
+  --bs-body-color: black
+}
+
 body {
-  background-color: red;
-  color: white;
+  color: var(--bs-body-color);
 }
 
 h1 {
   text-align: center;
+}
+
+.recipe {
+  text-align: center;
+  display: block;
 }
